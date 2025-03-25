@@ -24,7 +24,7 @@ def openSite(site):
     s = site.lower()
     webbrowser.open(f"https://{s}.com")
 
-newsApi = "ba54cd18c1194d5fb3a6b8eb0fdaba58"
+newsApi = "Your_News_API_Key"
 
 def get_news():
     """Fetches top news headlines from NewsAPI"""
